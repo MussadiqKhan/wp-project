@@ -1,0 +1,88 @@
+.aboutindex-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutindex-image img{
+    max-width: 420px;
+    height: 578px;
+}
+.aboutindex-text{
+    background-color: #E8E8E8;
+    max-width: 802px;
+    height: 578px;
+    padding: 69px 180px;
+}
+.aboutindex-text h1{
+    color: #656467;
+    font-size: 44px !important;
+    margin-bottom: 40px;
+}
+.aboutindex-text p{
+    font-size: 18px !important;
+    color: #656467;
+    margin-bottom: 30px;
+    font-style: normal !important;
+    font-weight: 200;
+    max-width: 420px;
+}
+.aboutindex-parent button{
+width: 174px;
+height: 60px;
+background: #E6001F 0% 0% no-repeat padding-box;
+opacity: 1;
+color: white;
+border: none;
+outline: none;
+}
+
+@media screen and (max-width: 1200px){
+    .aboutindex-text{
+        padding: 69px 100px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .aboutindex-text{
+        padding: 59px 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .aboutindex-text{
+        padding: 40px 40px;
+    }
+}
+@media screen and (max-width: 920px){
+    .aboutindex-parent{
+        flex-wrap: wrap;
+    }
+    .aboutindex-text{
+        padding: 69px 80px;
+        max-width: 100% !important;
+        height: 100%;
+    }
+    .aboutindex-image img{
+        max-width: 100%;
+    }
+    .aboutindex-text p{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 650px){
+    .aboutindex-text p{
+        max-width: 100%;
+    }
+    .aboutindex-text{
+        padding: 49px 40px;
+    }
+    .aboutindex-text h1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 500px){
+    .aboutindex-text h1{
+        font-size: 25px !important;
+    }
+    .aboutindex-text p{
+        font-size: 16px !important;
+    }
+}

@@ -1,0 +1,57 @@
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  right: 0;
+  left: 0;
+}
+
+.carousel-caption h1 {
+  font-family: "Gotham" !important;
+  max-width: 880px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 90%;
+  align-items: center;
+  text-align: center;
+}
+.carousel-control-prev {
+  left: 45%;
+  width: 5%;
+}
+
+.carousel-item {
+  max-height: 100vh;
+}
+
+.carousel-control-next {
+  right: 45%;
+  width: 5%;
+}
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.carousel-indicators {
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .carousel-caption h1 {
+    font-size: 44px !important;
+    padding: 0 5px !important;
+  }
+}

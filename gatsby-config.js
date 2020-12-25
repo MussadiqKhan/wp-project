@@ -5,6 +5,22 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `WPGraphQl`,
+        fieldName: `wpgraphql`,
+        // the only required plugin option for WordPress is the GraphQL url.
+        url: `https://secured.wpheadless.bufox.it/graphql`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {        
+        langKeyDefault: 'en',
+        useLangKeyLayout: false
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

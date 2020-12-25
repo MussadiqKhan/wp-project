@@ -1,0 +1,28 @@
+.homepageservice-title {
+  margin: 95px 0px 48px 0px;
+  color: #656467;
+  max-width: 756px;
+}
+.homepageservice-parent {
+  margin: 120px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.child {
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 360px;
+  height: 184px;;
+  max-width: 340px;
+}
+.child h4 {
+  max-width: 276px;
+  padding-top: 75px;
+  padding-left: 34px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
